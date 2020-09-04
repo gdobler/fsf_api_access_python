@@ -36,6 +36,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     py_modules=[],
     install_requires=requirements,
-    python_requires='>=3.7',
+# -- GGD: remove 3.7 requirement... be careful.
+#     python_requires='>=3.7',
     extras_require=extra
 )
